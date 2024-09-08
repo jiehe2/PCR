@@ -1,0 +1,23 @@
+Package: PCR
+Type: Package
+Title: Positive-definite covariance regression (PCR)
+Version: 0.1.0
+Authors@R: c(
+  person(given = "Jie", family = "He", email = "jiehe_stat@nuaa.edu.cn", role = c("aut","cre")),
+  person(given = "Yumou", family = "Qiu", role = "aut"), 
+  person(given = "Xiao-hua", family = "Zhou", role = "aut"))
+Description: The main goal of this package is to estimate coefficient matrices in high-dimensional positive-definite covariance regression model. The package is based on the work of Jie He, Yumou Qiu & Xiao-hua Zhou, Positive-Definite Covariance on Scalar Regression]{Positive-Definite Regularized Estimation for High Dimensional Covariance on Scalar Regression(2024). 
+Encoding: UTF-8
+Imports: Matrix, MASS, stats, methods, utils
+LinkingTo: Rcpp, RcppArmadillo
+Depends: R (>= 3.5.0), Rcpp (>= 1.0.10)
+RoxygenNote: 7.3.2
+NeedsCompilation: yes
+Author: Jie He [aut, cre],
+  Yumou Qiu [aut],
+  Xiao-hua Zhou [aut]
+Maintainer: Jie He <jiehe_stat@nuaa.edu.cn>
+LazyData: True
+LazyDataCompression: xz
+License: GPL (>= 2)
+Packaged: 2024-09-08 13:57:45 UTC; jiehe
