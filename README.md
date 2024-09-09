@@ -18,9 +18,15 @@ for 100 individuals.
 
 ## Installation
 
-The package can be installed using devtools.
+The package can be installed using devtools. Packages devtools, Rcpp,
+RcppArmadillo are needed to be installed before installing PCR. 
+```r
+install.packages("devtools")
+install.packages("Rcpp")
+install.packages("RcppArmadillo")
+```
 
-You can install the development version of PCR like so:
+Then you can install the PCR like so:
 
 ``` r
 devtools::install_github("jiehe2/PCR")
@@ -57,7 +63,7 @@ B_est = results$B_update
 ### Citations
 
 If you end up using `PCR()` in a publication, please cite our paper, for
-which this package was created:Jie He, Yumou Qiu & Xiao-hua Zhou (2024).
+which this package was created: Jie He, Yumou Qiu & Xiao-hua Zhou (2024).
 Positive-Definite Covariance on Scalar Regression Positive-Definite
 Regularized Estimation for High Dimensional Covariance on Scalar
 Regression.
