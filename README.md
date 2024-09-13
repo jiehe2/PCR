@@ -7,7 +7,7 @@ Jie He, Yumou Qiu and Xiao-hua Zhou
 <!-- badges: start -->
 <!-- badges: end -->
 
-The main goal of package PCR is to estimate coefficient matrices in
+PCR is an R package for macOS. The main goal of this package is to estimate coefficient matrices in
 high-dimensional positive-definite covariance regression model.
 
 The primary function for parameter estimation is `PCR_est`, which
